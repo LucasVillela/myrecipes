@@ -1,0 +1,84 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+
+#logo{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: left;
+	margin-right: -10px;
+}
+
+body{
+  padding-top: 80px;
+}
+
+.nav-item{
+  margin-left: 25px;
+  float: left;
+  margin-top: 20px;
+}
+
+.center{
+  text-align: center;
+}
+
+.navbar-default {
+  background-color: #a53f3f;
+  border-color: #c74537;
+}
+
+.navbar-default .navbar-brand {
+  color: #e2e2f0;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #c3d2d6;
+}
+.navbar-default .navbar-text {
+  color: #e2e2f0;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #e2e2f0;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #c3d2d6;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #c3d2d6;
+  background-color: #c74537;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #c3d2d6;
+  background-color: #c74537;
+}
+.navbar-default .navbar-toggle {
+  border-color: #c74537;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #c74537;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #e2e2f0;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #e2e2f0;
+}
+.navbar-default .navbar-link {
+  color: #e2e2f0;
+}
+.navbar-default .navbar-link:hover {
+  color: #c3d2d6;
+}
